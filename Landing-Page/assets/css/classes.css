@@ -1,0 +1,34 @@
+/* Plano de fundo principal */
+.main-bg {
+  background-image: url(/assets/img/main-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+/* Plano de fundo branco */
+.white-bg {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+/* Conteúdo principal */
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+/* Espaçamento do menu */
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
