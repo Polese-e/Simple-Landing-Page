@@ -4,18 +4,11 @@
   box-sizing: border-box;
 }
 
-/* 
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  */
-
-/* Definindo o tamanho da fonte principal do site */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-/* Definindo fonte do site */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
@@ -23,7 +16,6 @@ body {
   line-height: 1.5;
 }
 
-/* Definindo o tipo de fonte do site */
 h1,
 h2,
 h3,
