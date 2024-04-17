@@ -1,5 +1,5 @@
 .main-bg {
-  background-image: url(/assets/img/main-bg.png);
+  background: url(/assets/img/main-bg.png);
   background-size: cover;
   background-position: center center;
   color: var(--white-color);
@@ -226,7 +226,8 @@ body .full-width {
     text-align: center;
   }
 
-  .menu-content, .menu-content ul {
+  .menu-content,
+  .menu-content ul {
     flex-direction: column;
     justify-content: center;
   }
@@ -240,7 +241,7 @@ body .full-width {
   }
 
   .close-menu-label::after {
-    content: '☰';
+    content: "☰";
     position: fixed;
     z-index: 2;
     top: 2rem;
@@ -256,12 +257,12 @@ body .full-width {
     cursor: pointer;
   }
 
-  .close-menu:checked~.menu {
+  .close-menu:checked ~ .menu {
     display: block;
   }
 
-  .close-menu:checked~.close-menu-label::after {
-    content: '×';
+  .close-menu:checked ~ .close-menu-label::after {
+    content: "×";
   }
 
   .menu-spacing {
