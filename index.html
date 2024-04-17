@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/elements.css" />
     <link rel="stylesheet" href="assets/css/classes.css" />
     <link rel="stylesheet" href="assets/css/menu.css" />
+    <script src="assets/js/index.js" defer></script>
   </head>
   <body>
 
@@ -52,7 +53,7 @@
         </div>
         <div class="intro-img">
           <img
-            src="assets/img/javascript-not-optmized.svg"
+            src="assets/img/javascript-not-optmized.png"
             alt="Logo de HTML, CSS e JS."
           />
         </div>
@@ -279,13 +280,12 @@
         </div>
         <div class="intro-img">
           <img
-            src="assets/img/javascript-not-optmized.svg"
+            src="assets/img/javascript-not-optmized.png"
             alt="Logo de HTML, CSS e JS."
           />
         </div>
         <div class="contact-form">
-          <fieldset class="form-grid">
-            <legend>Contact me</legend>
+          <form class="form-grid">
             <div class="form-group">
               <label for="first-name">First name</label>
               <input type="text" name="first-name" id="first-name" placeholder="Your name"/>
@@ -305,14 +305,14 @@
               <label for="messege">Messege</label>
               <textarea
                 name="messege"
-                id="messede"
+                id="messege"
                 cols="30"
                 rows="10"
                 placeholder="Your messege"
               ></textarea>
 
               <div class="form-group full-width">
-                <Button type="submit">Send messege</Button>
+                <Button id="form-btn" type="submit">Send messege</Button>
             </div>
           </fieldset>
         </div>
@@ -325,6 +325,5 @@
     </footer>
 
     <a class="back-to-top" href="#">➤</a>
-    <script src="/Landing-Page/assets/js/main.js"></script>
   </body>
 </html>
